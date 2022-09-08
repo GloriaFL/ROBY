@@ -355,7 +355,7 @@ puts "fifth activity"
 
 activity_image_url = URI.open("https://res.cloudinary.com/dfbhewkkh/image/upload/v1662557196/roby/perritoparty_wcttgy.jpg")
 activity = Activity.create!({ name: "Perrito Party",
-  category: "Social",
+  category: "Walk",
   location: "Madrid Rio",
   description: "This is an outdoor social event for small dogs.",
   start_date: "17/09/22",
